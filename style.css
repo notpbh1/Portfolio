@@ -180,22 +180,22 @@ section {
 
 #profile {
     display: flex;
-    justify-content: center;
-    gap: 5rem;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Center items vertically */
+    gap: 3rem; /* Adjust the gap between the image and text */
     height: 80vh;
+    margin-left: 20%;
 }
 
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin-top: 55px;
-    margin-right: 200px;
+.section__pic-container img {
+    width: 600px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
 }
-
 
 .section__text {
     align-self: center;
-    text-align: center;
+    text-align: left; /* Align text to the left */
 }
 
 .section__text p {
